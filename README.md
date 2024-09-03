@@ -1,5 +1,4 @@
 <h1> Stock 'N Shop</h1>
-<hr>
 <p> Project Name: Stock 'n Shop <br>Project Description: Stock 'n Shop is an online platform that provides an easy and convenient way for customers to shop for groceries and household items. With Stock 'n Shop, customers can create shopping lists, browse through a variety of products, and place orders for delivery or pickup. </p>
 
 <p>Project Goals:<br>To create a user-friendly platform that makes grocery shopping more convenient and enjoyable for customers. To provide a wide variety of products at competitive prices.</p>
@@ -46,10 +45,14 @@ Bash
 <h3>Features</h3>
 <p>The <b>Manage Products</b> page is where you, as the Stock 'n Shop administrator, can view and manage all the products available on the platform. You have the ability to add, edit, or delete products as needed to ensure that the selection of products offered to customers is up-to-date and diverse. <br>
 The <b>Add New Product</b> button is where you can create a new product entry for the platform. When you click this button, you will likely be presented with a form that will ask you for information about the new product, such as its name, description, price, and any other relevant details.</p>
-![2](https://github.com/user-attachments/assets/b0250726-2507-4664-a3b8-0450fdd4e450)
+
+![2](https://github.com/user-attachments/assets/7d36a1f6-32d2-4a49-a62e-7e7bef6e3e98)
+
+
 
 <p>The <b> New Order </b>page is where customers can place orders for the products they want to purchase. This page will likely contain a form that allows customers to enter their order details, including the products they want to buy and their delivery or pickup preferences. <br>
 Once the customer has added the desired products to their order, they will be able to review the order summary, which will show the total price of the order, as well as any applicable taxes or delivery fees. The customer can then choose to confirm the order and proceed to the payment page, where they will be able to enter their payment information and complete the transaction.</p>
+
 ![3](https://github.com/user-attachments/assets/7c8ceb43-982e-4960-8155-123e681137c5)
 <hr>
 <h3>Authors</h3>
