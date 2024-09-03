@@ -1,67 +1,72 @@
-### Project Overview
-Stock 'N Shop is a grocery store management application designed to streamline store operations. This 3-tier application leverages Python, Flask, HTML, CSS, JavaScript, and MySQL to provide a user-friendly interface for managing inventory, sales, and customer information.
+<h1> Stock 'N Shop</h1>
+<hr>
+<p> Project Name: Stock 'n Shop <br>Project Description: Stock 'n Shop is an online platform that provides an easy and convenient way for customers to shop for groceries and household items. With Stock 'n Shop, customers can create shopping lists, browse through a variety of products, and place orders for delivery or pickup. </p>
 
-### Technical Stack
-Technical Stack
-Front-end: HTML, CSS, JavaScript, Bootstrap
-Back-end: Python, Flask
-Database: MySQL
+<p>Project Goals:<br>To create a user-friendly platform that makes grocery shopping more convenient and enjoyable for customers. To provide a wide variety of products at competitive prices.</p>
 
-### Project Structure
-stock_n_shop/
-├── backend/
-│   ├── orders_dao.py
-│   ├── products_dao.py
-│   ├── servers.py
-│   └── sql_connection.py
-│   └── uom_dao.py
-├── ui/
-│   ├── index.html
-│   ├── manageproducts.html
-│   ├── order.html
-│   └── customers.html
-├── static/
-│   ├── css/
-│   ├── js/
-│   └── images/
-├── requirements.txt
-├── README.md
-
-### Getting Started
-Clone the repository:
+![1](https://github.com/user-attachments/assets/23e03259-9a53-4457-bb7f-4660acb2c98d)
+<hr>
+<h3>Build with</h3>
+<b>Front-end:</b>
+<ul>
+  <li>HTML: Provides structure and content for the web page.</li>
+  <li>CSS: Styles the web page, controlling its appearance.</li>
+  <li>JavaScript: Adds interactivity to the web page.</li>
+  <li>Bootstrap: Provides a responsive layout and a set of predefined components.</li>
+</ul>
+<b>Back-end:</b>
+<ul>
+  <li>Python: A high-level programming language for building the server-side logic.</li>
+  <li>Flask: A lightweight web framework for Python, allowing for the creation of web applications.</li>
+</ul>
+<b>Database:</b>
+<ul>
+  <li>MySQL: A relational database management system for storing and retrieving data.</li>
+</ul>
+<b>APIs:</b>
+<ul>
+  <li>Python Requests: A library for making HTTP requests in Python.</li>
+  <li>JSON: A format for exchanging data between web services and applications.</li>
+  <li>MySQL Connector: A Python library for connecting to a MySQL database.</li>
+</ul>
+<hr>
+<h3>Getting Started</h3>
+<u>Clone the repository:</u>
 Bash
-git clone https://github.com/amanda-dandure/stock_n_shop.git
-Install dependencies:
+<i>git clone https://github.com/amanda-dandure/stock_n_shop.git</i>
+<u>Install dependencies:</u>
 Bash
-pip install -r requirements.txt
+<i>pip install -r requirements.txt</i>
+<u>Database</u>
+<ol>
+  <li>Create a MySQL database: Set up a MySQL database and create a user with appropriate privileges.</li>
+  <li>Configure database settings: Update the database connection details in the sql_connection.py file.</li>
+</ol>
+<hr>
+<h3>Features</h3>
+<p>The <b>Manage Products</b> page is where you, as the Stock 'n Shop administrator, can view and manage all the products available on the platform. You have the ability to add, edit, or delete products as needed to ensure that the selection of products offered to customers is up-to-date and diverse. <br>
+The <b>Add New Product</b> button is where you can create a new product entry for the platform. When you click this button, you will likely be presented with a form that will ask you for information about the new product, such as its name, description, price, and any other relevant details.</p>
+![2](https://github.com/user-attachments/assets/b0250726-2507-4664-a3b8-0450fdd4e450)
 
-### Database
-Create a MySQL database: Set up a MySQL database and create a user with appropriate privileges.
-Configure database settings: Update the database connection details in the sql_connection.py file.
-
-
-### Contributing
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes.
-Commit your changes with descriptive commit messages.
-Push your changes to your branch.  
-Create a pull request to the main branch.
-
-### License
-MIT License Copyright (c) 2024 Amanda Dandure Permission is with this granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. 
-
-
-### Additional Notes
-Consider using a version control system like Git to track changes and collaborate effectively.
-Implement security measures to protect sensitive data.
-Consider using a testing framework (e.g., pytest) to ensure code quality.
-Explore cloud deployment options (e.g., Heroku, AWS) for scalability.
-
-
-
-### Installation Instructions
-
+<p>The <b> New Order </b>page is where customers can place orders for the products they want to purchase. This page will likely contain a form that allows customers to enter their order details, including the products they want to buy and their delivery or pickup preferences. <br>
+Once the customer has added the desired products to their order, they will be able to review the order summary, which will show the total price of the order, as well as any applicable taxes or delivery fees. The customer can then choose to confirm the order and proceed to the payment page, where they will be able to enter their payment information and complete the transaction.</p>
+![3](https://github.com/user-attachments/assets/7c8ceb43-982e-4960-8155-123e681137c5)
+<hr>
+<h3>Authors</h3>
+<a href="https://github.com/amanda-dandure">Amanda Dandure</a>
+<ul>
+  <li>Project Lead - responsible for managing, overseeing the development, and ensuring the application aligns with the project's goals.</li>
+  <li>Backend Developer - responsible for creating the system's backend architecture, and ensuring data security and integrity.</li>
+  <li>Frontend Developer - responsible for designing and implementing the user interface, ensuring the system is easy to use and visually appealing.</li>
+</ul>
+<hr>
+<h3> Additional Notes</h3>
+<p>Consider using a version control system like Git to track changes and collaborate effectively. <br>
+Implement security measures to protect sensitive data.<br>
+Consider using a testing framework (e.g., pytest) to ensure code quality.<br>
+Explore cloud deployment options (e.g., Heroku, AWS) for scalability. </p>
+<hr>
+<h3>Installation Instructions</h3>
 Download mysql for windows: https://dev.mysql.com/downloads/installer/
 
 `pip install mysql-connector-python`
