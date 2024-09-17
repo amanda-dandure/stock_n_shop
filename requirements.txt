@@ -1,12 +1,5 @@
 Basic requirements.txt file for your Stock 'N Shop project
 
-Flask
-Werkzeug
-Jinja2
-MySQL-python
-mysqlclient
-
-
 Explanation:
 Flask: The web framework for building the backend of your application.
 Werkzeug: A toolkit for WSGI, HTTP, and more, which is used by Flask.
@@ -19,26 +12,17 @@ WTForms: For building web forms.
 Bootstrap: If you're using Bootstrap for frontend styling.
 
 To install these dependencies:
-Create a virtual environment:
+Create a virtual environment
 Bash
-python -m venv venv
-
-
-
+  python -m venv venv
 
 Activate the virtual environment:
 Bash
-source venv/bin/activate    # On Windows: venv\Scripts\activate
-
-
-
+  source venv/bin/activate    # On Windows: venv\Scripts\activate
 
 Install dependencies:
 Bash
-pip install -r requirements.txt
-
-
-
+  pip install -r requirements.txt
 
 Remember to replace mysqlclient with MySQL-python if you're using Python 2.7. If you're using Python 3, mysqlclient is recommended.
 
