@@ -1,4 +1,4 @@
-from sql_connection import get_sql_connection #establishing a connection to the DB
+from sql_connection import get_sql_connection #establishing a connection to the database
 
 def get_all_products(connection): # retriving all product data
     cursor = connection.cursor() #retriving results
