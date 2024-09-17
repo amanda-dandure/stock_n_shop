@@ -1,7 +1,29 @@
 <h1> Stock 'N Shop</h1>
-<p> Project Name: Stock 'n Shop <br>Project Description: Stock 'n Shop is an online platform that provides an easy and convenient way for customers to shop for groceries and household items. With Stock 'n Shop, customers can create shopping lists, browse through a variety of products, and place orders for delivery or pickup. </p>
+<h3>Table of Contents</h3>
 
-<p>Project Goals:<br>To create a user-friendly platform that makes grocery shopping more convenient and enjoyable for customers. To provide a wide variety of products at competitive prices.</p>
+* Project Description
+* Project Goals
+* Technologies Used
+* Getting Started
+  <ol>
+    <li>Clone the Repository</li>
+    <li>Install Dependencies</li>
+    <li>Database Setup</li>
+  </ol>
+* Features
+  <ol>
+    <li>Manage Products</li></li>
+    <li>Add New Product</li>
+    <li>New Order</li>
+  </ol>   
+* Authors
+* Additional Notes
+* Licensing
+* Installation Instructions
+  
+<p> <u>Project Name:</u> Stock 'n Shop <br>Project Description: Stock 'n Shop is an online platform that provides an easy and convenient way for customers to shop for groceries and household items. With Stock 'n Shop, customers can create shopping lists, browse through a variety of products, and place orders for delivery or pickup. </p>
+
+<p><u>Project Goals:</u><br>To create a user-friendly platform that makes grocery shopping more convenient and enjoyable for customers. To provide a wide variety of products at competitive prices.</p>
 
 ![1](https://github.com/user-attachments/assets/23e03259-9a53-4457-bb7f-4660acb2c98d)
 <hr>
@@ -69,9 +91,12 @@ Implement security measures to protect sensitive data.<br>
 Consider using a testing framework (e.g., pytest) to ensure code quality.<br>
 Explore cloud deployment options (e.g., Heroku, AWS) for scalability. </p>
 <hr>
-<h3>Installation Instructions</h3>
-Download mysql for windows: https://dev.mysql.com/downloads/installer/
+<h3>Licensing</h3>
+This project is licensed under the <a href="https://opensource.org/license/MIT">MIT License</a>.
+<hr>
 
-`pip install mysql-connector-python`
-
+<h3>Installation Instructions (MySQL for Windows):</h3>
+1. Download MySQL from [https://dev.mysql.com/downloads/installer/](https://dev.mysql.com/downloads/installer/).
+2. Install the downloaded package.
+3. Run `pip install mysql-connector-python` to install the connector library.
 
